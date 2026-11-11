@@ -20,6 +20,10 @@
     - [国际贸易实务](./uni/四方/课程笔记/国际贸易实务)
 - [班会](./uni/四方/班会)
 
+#### [河北师大](./uni/师大)
+
+- [数据结构与算法](./uni/师大/数据结构与算法)
+
 ---
 
 ###### *Unless otherwise stated, all written content is copyrighted by [eofitg](https://github.com/eofitg/)*
