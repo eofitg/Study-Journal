@@ -2,7 +2,4 @@ theme: jekyll-theme-cayman
 markdown: kramdown
 
 kramdown:
-  input: GFM
   math_engine: mathjax
-  math_engine_opts:
-    preview: true
