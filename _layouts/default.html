@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  <!-- 全局注入 MathJax -->
+  <meta charset="UTF-8">
+  <title>{{ page.title | default: site.title }}</title>
+  <!-- 全局引入 MathJax -->
   <script>
-    MathJax = { tex: { inlineMath: [['$', '$']], displayMath: [['$$', '$$']] } };
+    MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
   </script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
 {{ content }}
