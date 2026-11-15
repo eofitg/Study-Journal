@@ -1,2 +1,9 @@
 theme: minima
 markdown: GFM
+
+defaults:
+  -
+    scope:
+      path: "" # 代表所有文件
+    values:
+      layout: "default" # 强行套用默认布局
