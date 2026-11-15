@@ -1,8 +1,9 @@
 theme: minima
+markdown: GFM
 
 defaults:
-  - scope:
-      path: ""
-      type: posts
+  -
+    scope:
+      path: "" # 代表所有文件
     values:
-      layout: post
+      layout: "default" # 强行套用默认布局
