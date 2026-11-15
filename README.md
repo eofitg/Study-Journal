@@ -1,5 +1,3 @@
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
 # Study Journal
 
 `2026/11/11` 从 [`eofitg/Notepad`](https://github.com/eofitg/Notepad) 拆分出的学习笔记
