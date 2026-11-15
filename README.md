@@ -1,4 +1,4 @@
-# Study Journal
+<h1 style="text-align: left;">Study Journal</h1>
 
 `2026/11/11` 从 [`eofitg/Notepad`](https://github.com/eofitg/Notepad) 拆分出的学习笔记
 
