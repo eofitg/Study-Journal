@@ -15,3 +15,26 @@
 ---
 
 ###### *Unless otherwise stated, all written content is copyrighted by [eofitg](https://github.com/eofitg/)*
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$']],
+      displayMath: [['$$', '$$']]
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+    }
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var checkExist = setInterval(function() {
+       if (window.MathJax && MathJax.typesetPromise) {
+          MathJax.typesetPromise();
+          clearInterval(checkExist);
+       }
+    }, 100);
+  });
+</script>
