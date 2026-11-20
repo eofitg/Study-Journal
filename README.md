@@ -6,11 +6,19 @@
 
 同时，以后大概也会是那些*学院派/成体系*的知识的集中存放地点
 
-## 大学 (College / University / Academy)
+## 文库 Library
 
-### [四方学院](./uni/四方/contents.md)
+- [计算机算法基础 Basic Computer Algorithm](./lib/计算机算法基础/contents.md)
 
-### [河北师大](./uni/师大/contents.md)
+- [线性代数 Linear Algebra](./lib/线性代数/contents.md)
+
+- [概率论与数理统计 Probability & Statistics](./lib/概率论与数理统计/contents.md)
+
+## 大学 University
+
+### [四方学院 STUSC](./uni/四方/contents.md)
+
+### [河北师大 HEBNU](./uni/师大/contents.md)
 
 ---
 
