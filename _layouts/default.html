@@ -9,19 +9,7 @@ layout: null
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-
-  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | relative_url }}">
-
-  {% if site.ga_tracking != nil %}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', '{{ site.ga_tracking }}');
-  </script>
-  {% endif %}
+  {% include head.html %}
 
   <script>
     window.MathJax = {
@@ -33,11 +21,6 @@ layout: null
     };
   </script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-  {% if site.search_enabled != false %}
-  <script src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
-  {% endif %}
-  <script src="{{ '/assets/js/just-the-docs.js' | relative_url }}"></script>
 </head>
 <body>
 <a class="skip-to-main" href="#main-content">Skip to main content</a>
@@ -49,5 +32,10 @@ layout: null
     {{ content }}
   </div>
 </div>
+
+{% if site.search_enabled != false %}
+<script src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
+{% endif %}
+<script src="{{ '/assets/js/just-the-docs.js' | relative_url }}"></script>
 </body>
 </html>
