@@ -1,1 +1,26 @@
-theme: jekyll-theme-primer
+remote_theme: just-the-docs/just-the-docs
+
+# 插件
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+title: Study Journal
+description: trb xxxx!
+url: https://eofitg.github.io
+baseurl: Study-Journal
+
+# 全站启用 KaTeX 公式渲染
+math: katex
+
+# 搜索
+search_enabled: true
+
+# 标题锚点（悬停可复制链接）
+heading_anchors: true
+
+# 配色（light 是浅色，想用深色改成 dark）
+color_scheme: light
+
+# 导航侧边栏默认开启
+nav_enabled: true
