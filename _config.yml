@@ -8,7 +8,7 @@ plugins:
 title: Study Journal
 description: trb xxxx!
 url: https://eofitg.github.io
-baseurl: Study-Journal
+baseurl: /Study-Journal
 
 # 全站启用 KaTeX 公式渲染
 math: katex
