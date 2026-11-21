@@ -20,4 +20,4 @@ heading_anchors: true
 color_scheme: light
 
 # 导航侧边栏默认开启
-nav_enabled: true
+nav_enabled: false
