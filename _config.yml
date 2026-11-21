@@ -17,7 +17,7 @@ search_enabled: true
 heading_anchors: true
 
 # 配色（light 是浅色，想用深色改成 dark）
-color_scheme: light
+color_scheme: dark
 
 # 导航侧边栏默认开启
 nav_enabled: false
