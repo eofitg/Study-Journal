@@ -21,3 +21,10 @@ color_scheme: light
 
 # 导航侧边栏默认开启
 nav_enabled: false
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: mathjax
