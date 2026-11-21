@@ -1,4 +1,4 @@
-<h1 style="text-align: left;">Study Journal</h1>
+# Study Journal
 
 `2026/11/11` 从 [`eofitg/Notepad`](https://github.com/eofitg/Notepad) 拆分出的学习笔记
 
@@ -8,7 +8,7 @@
 
 ## 文库 Library
 
-- [计算机算法基础 Basic Computer Algorithm](./lib/计算机算法基础/contents.md)
+- [计算机算法基础 Basic Computer Algorithm](./lib/计算机算法基础/index.md)
 
 - [线性代数 Linear Algebra](./lib/线性代数/contents.md)
 

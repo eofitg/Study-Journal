@@ -1,3 +1,10 @@
+---
+title: 计算机算法基础
+parent: 文库 Library
+nav_order: 1
+has_children: true
+---
+
 # 计算机算法基础
 
 > _第 2 版；主编：**杨宋晏**；副主编：**杨国兴/朱红**；清华大学出版社_
