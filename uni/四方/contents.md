@@ -1,4 +1,10 @@
-### 四方学院
+---
+title: 四方学院 STUSC
+parent: 大学 University
+nav_order: 1
+---
+
+### 四方学院 STUSC
 
 #### 一、[金融学专业介绍](./金融学专业介绍.md)
 

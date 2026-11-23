@@ -1,4 +1,10 @@
-### 河北师大
+---
+title: 河北师大 HEBNU
+parent: 大学 University
+nav_order: 2
+---
+
+### 河北师大 HEBNU
 
 #### 一、数据结构与算法
 
