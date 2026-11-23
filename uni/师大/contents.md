@@ -2,6 +2,7 @@
 title: 河北师大 HEBNU
 parent: 大学 University
 nav_order: 2
+has_children: true
 ---
 
 # 河北师大 HEBNU
