@@ -20,7 +20,7 @@ heading_anchors: true
 color_scheme: dark
 
 # 导航侧边栏默认开启
-nav_enabled: false
+nav_enabled: true
 
 defaults:
   - scope:
