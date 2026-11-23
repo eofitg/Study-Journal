@@ -6,7 +6,7 @@ plugins:
   - jekyll-seo-tag
 
 title: Study Journal
-description: trb xxxx!
+description: We never stop learning!
 url: https://eofitg.github.io
 baseurl: /Study-Journal
 
