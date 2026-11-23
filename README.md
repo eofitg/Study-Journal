@@ -8,7 +8,7 @@
 
 ## 文库 Library
 
-- [计算机算法基础 Basic Computer Algorithm](./lib/计算机算法基础/index.md)
+- [计算机算法基础 Basic Computer Algorithm](./lib/计算机算法基础/contents.md)
 
 - [线性代数 Linear Algebra](./lib/线性代数/contents.md)
 
