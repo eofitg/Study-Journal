@@ -20,6 +20,8 @@ has_children: true
 
 - [概率论与数理统计 Probability & Statistics](./lib/概率论与数理统计/contents.md)
 
+- [高等数学 Advanced Mathematics](./lib/高等数学/contents.md)
+
 ## 大学 University
 
 ### [四方学院 STUSC](./uni/四方/contents.md)
